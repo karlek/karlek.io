@@ -1,6 +1,7 @@
 html {
 	font-family: "SwedenSans", sans-serif;
 	font-size: 100%;
+	overflow-y: hidden;
 }
 
 #background-image {
@@ -21,10 +22,10 @@ header {
 	float: right;
 }
 
-.center {
-	display: flex; 
-	justify-content: center;
+.not-found {
+	width: 300px;
 	margin: 0 auto;
+	padding-top: 4rem;
 }
 
 h1 {
@@ -39,27 +40,11 @@ header p {
 	color: #eee;
 }
 
-footer {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	padding: 2rem 0;
-	background-color: rgba(48, 48, 48, 0.5);
-	color: #fff;
-	width: 100%;
-	z-index: 2;
-}
-
 a {
 	text-decoration: none;
 	color: #000;
 	background-color: #fff;
 	padding: 0.2rem;
 	
-}
-
-span#heart {
-	color: #ee9999;
-	padding: 0 4px;
 }
 
