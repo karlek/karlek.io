@@ -1,0 +1,65 @@
+html {
+	font-family: "SwedenSans", sans-serif;
+	font-size: 100%;
+}
+
+#background-image {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: -1;
+
+	background: url('../img/bg.jpg') #000 no-repeat center center fixed;
+	background-size: cover;
+	filter: brightness(20%) sepia(70%);
+}
+
+header {
+	margin: 1rem 15%;
+	float: right;
+}
+
+.center {
+	display: flex; 
+	justify-content: center;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 14rem;
+	color: #eee;
+}
+
+header p {
+	margin-left: 2.0rem;
+	font-size: 2rem;
+	line-height: 170%;
+	color: #eee;
+}
+
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 2rem 0;
+	background-color: rgba(48, 48, 48, 0.5);
+	color: #fff;
+	width: 100%;
+	z-index: 2;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+	padding: 0.2rem;
+	
+}
+
+span#heart {
+	color: #ee9999;
+	padding: 0 4px;
+}
+
