@@ -1,0 +1,36 @@
+header {
+	margin: 1vw 15vw;
+	float: right;
+}
+
+h1 {
+	font-size: 12vw;
+	color: #eee;
+}
+
+header p {
+	font-size: 2vw;
+	margin-left: 1vw;
+	line-height: 170%;
+	color: #eee;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+	padding: 0.1rem 0.2rem;
+}
+
+.not-found {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 4rem;
+}
+
+h2 {
+	font-size: 12vw;
+	text-align: center;
+	color: #eee;
+}
+

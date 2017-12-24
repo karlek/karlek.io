@@ -1,0 +1,36 @@
+header {
+	margin: 1vw 5vw;
+	float: right;
+}
+
+h1 {
+	font-size: 32vw;
+	color: #eee;
+}
+
+header p {
+	font-size: 8vw;
+	margin-left: 4vw;
+	line-height: 170%;
+	color: #eee;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+	padding: 0.01vw 1vw;
+}
+
+.not-found {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 4rem;
+}
+
+h2 {
+	font-size: 12vw;
+	text-align: center;
+	color: #eee;
+}
+

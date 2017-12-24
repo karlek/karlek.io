@@ -17,34 +17,3 @@ html {
 	filter: brightness(20%) sepia(70%);
 }
 
-header {
-	margin: 1rem 15%;
-	float: right;
-}
-
-.not-found {
-	width: 300px;
-	margin: 0 auto;
-	padding-top: 4rem;
-}
-
-h1 {
-	font-size: 14rem;
-	color: #eee;
-}
-
-header p {
-	margin-left: 2.0rem;
-	font-size: 2rem;
-	line-height: 170%;
-	color: #eee;
-}
-
-a {
-	text-decoration: none;
-	color: #000;
-	background-color: #fff;
-	padding: 0.1rem 0.2rem;
-	
-}
-
